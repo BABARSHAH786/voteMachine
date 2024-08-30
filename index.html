@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #e0dede;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    #name-list {
+        margin-top: 20px;
+    }
+
+    .name-item {
+        cursor: pointer;
+    }
+
+    .bg-image {
+        background-image: url(./WhatsApp\ Image\ 2024-08-24\ at\ 1.37.49\ AM.jpeg);
+
+
+    }
+
+    button {
+        background-color: #fff;
+        border-radius: 5px;
+        border-color: #fff;
+
+    }
+
+    li {
+        position: relative;
+        top: 23px;
+        left: 45px;
+    }
+
+    h1 {
+        position: relative;
+      
+        font-size: 48px;
+    }
+    .div{
+        padding: 29px 29px 29px 110px;
+        margin: 75px 45px 0px 112px;
+        width: 68%;
+        background-color: #fff;
+    }
+    button{
+
+        height: 44px;
+        font-size: 29px;
+        border-color: black;
+        background-color: rgb(245, 236, 225);
+        left: 38px;
+        position: relative;
+    }    
+    .text{
+        height: 44px;
+
+    }
+    span{
+        font-size: 34px;
+    }
+    ol{
+        font-size: 34px;
+    }
+    input{
+        height: 44px;
+        width: 39%;
+    }
+</style>
+
+<body>
+    <div class="div">
+        <div id="text"></div>
+        <h1>Friends Voting System</h1>
+        <input type="text" id="name-input" placeholder="Enter Participant Name">
+        <button onclick="addName()">Add Friends</button>
+        <div class="center"><br>
+            <span>S.No Name</span> <span>Vote</span>
+        </div>
+
+        <ol id="name-list"></ol>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
